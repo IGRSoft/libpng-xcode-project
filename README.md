@@ -15,4 +15,4 @@ Installation
 
 Licence
 -------------
-MIT
+libpng-xcode-project is available under the MIT license. See the LICENSE file for more info.
