@@ -12,10 +12,6 @@ Installation
 3. Put Xcode folder to ./projects folder;
 4. Build.
 
-Build Problem
--------------
-If You have ERROR just run prebuild.sh script from ./projects/xcode folder
-
 
 Licence
 -------------
