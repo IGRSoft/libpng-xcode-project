@@ -15,11 +15,11 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.6.16</string>
+	<string>$(DYLIB_CURRENT_VERSION)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.6.16</string>
+	<string>10618</string>
 	<key>CSResourcesFileMapped</key>
 	<true/>
 </dict>
