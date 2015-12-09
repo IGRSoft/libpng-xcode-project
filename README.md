@@ -3,7 +3,7 @@ libpng-xcode-project
 
 Xcode project of libpng for Apple OSX / iOS.
 
-Tested on v1.6.18.
+Tested on v1.6.20.
 
 Installation
 -------------
