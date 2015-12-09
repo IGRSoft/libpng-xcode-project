@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -60,7 +60,7 @@
 		A5A58CF417CF7FBE00B64330 /* pngwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 14461C6E09C3C37F005840C0 /* pngwrite.c */; };
 		A5A58CF517CF7FBE00B64330 /* pngwtran.c in Sources */ = {isa = PBXBuildFile; fileRef = 14461C6F09C3C37F005840C0 /* pngwtran.c */; };
 		A5A58CF617CF7FBE00B64330 /* pngwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 14461C7009C3C37F005840C0 /* pngwutil.c */; };
-		A5BFDBA11A97359D007A9234 /* mac_libpng_test.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFDBA01A97359D007A9234 /* mac_libpng_test.m */; };
+		A5BFDBA11A97359D007A9234 /* libpng_test.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BFDBA01A97359D007A9234 /* libpng_test.m */; };
 		A5BFDBA21A97359D007A9234 /* libpng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D07F2C80486CC7A007CD1D0 /* libpng.framework */; };
 		A5BFDBAC1A97377F007A9234 /* png.h in Headers */ = {isa = PBXBuildFile; fileRef = 14461C5E09C3C37F005840C0 /* png.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5BFDBAD1A973781007A9234 /* pngconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 14461C5F09C3C37F005840C0 /* pngconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -146,9 +146,9 @@
 		A5A58CD917CF754800B64330 /* pngstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pngstruct.h; path = ../../pngstruct.h; sourceTree = "<group>"; };
 		A5A58CE017CF7E6600B64330 /* pngdebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pngdebug.h; path = ../../pngdebug.h; sourceTree = "<group>"; };
 		A5A58CFD17CF7FBE00B64330 /* libpng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libpng.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5BFDB9C1A97359D007A9234 /* mac-libpng-test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mac-libpng-test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BFDB9C1A97359D007A9234 /* libpng-test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "libpng-test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BFDB9F1A97359D007A9234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5BFDBA01A97359D007A9234 /* mac_libpng_test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mac_libpng_test.m; sourceTree = "<group>"; };
+		A5BFDBA01A97359D007A9234 /* libpng_test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libpng_test.m; sourceTree = "<group>"; };
 		A5BFDBBC1A973AD8007A9234 /* basn0g01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basn0g01.png; sourceTree = "<group>"; };
 		A5BFDBBD1A973AD8007A9234 /* basn0g02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basn0g02.png; sourceTree = "<group>"; };
 		A5BFDBBE1A973AD8007A9234 /* basn0g04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basn0g04.png; sourceTree = "<group>"; };
@@ -213,7 +213,7 @@
 				8D07F2C80486CC7A007CD1D0 /* libpng.framework */,
 				A55DFB7815EBB44B007CCF00 /* libpng.a */,
 				A5A58CFD17CF7FBE00B64330 /* libpng.a */,
-				A5BFDB9C1A97359D007A9234 /* mac-libpng-test.xctest */,
+				A5BFDB9C1A97359D007A9234 /* libpng-test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -223,7 +223,7 @@
 			children = (
 				08FB77ACFE841707C02AAC07 /* Source */,
 				089C1665FE841158C02AAC07 /* Resources */,
-				A5BFDB9D1A97359D007A9234 /* mac-libpng-test */,
+				A5BFDB9D1A97359D007A9234 /* libpng-test */,
 				A55DFB8B15EBB4A9007CCF00 /* Frameworks */,
 				034768DDFF38A45A11DB9C8B /* Products */,
 			);
@@ -299,14 +299,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A5BFDB9D1A97359D007A9234 /* mac-libpng-test */ = {
+		A5BFDB9D1A97359D007A9234 /* libpng-test */ = {
 			isa = PBXGroup;
 			children = (
 				A5BFDBBB1A973AD8007A9234 /* pngsuite */,
-				A5BFDBA01A97359D007A9234 /* mac_libpng_test.m */,
+				A5BFDBA01A97359D007A9234 /* libpng_test.m */,
 				A5BFDB9E1A97359D007A9234 /* Supporting Files */,
 			);
-			path = "mac-libpng-test";
+			path = "libpng-test";
 			sourceTree = "<group>";
 		};
 		A5BFDB9E1A97359D007A9234 /* Supporting Files */ = {
@@ -458,9 +458,9 @@
 			productReference = A5A58CFD17CF7FBE00B64330 /* libpng.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		A5BFDB9B1A97359D007A9234 /* mac-libpng-test */ = {
+		A5BFDB9B1A97359D007A9234 /* libpng-test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5BFDBA51A97359D007A9234 /* Build configuration list for PBXNativeTarget "mac-libpng-test" */;
+			buildConfigurationList = A5BFDBA51A97359D007A9234 /* Build configuration list for PBXNativeTarget "libpng-test" */;
 			buildPhases = (
 				A5BFDB981A97359D007A9234 /* Sources */,
 				A5BFDB991A97359D007A9234 /* Frameworks */,
@@ -471,9 +471,9 @@
 			dependencies = (
 				A5BFDBA41A97359D007A9234 /* PBXTargetDependency */,
 			);
-			name = "mac-libpng-test";
+			name = "libpng-test";
 			productName = "mac-libpng-test";
-			productReference = A5BFDB9C1A97359D007A9234 /* mac-libpng-test.xctest */;
+			productReference = A5BFDB9C1A97359D007A9234 /* libpng-test.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -482,7 +482,8 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "PNG Development Group";
 				TargetAttributes = {
 					A5BFDB9B1A97359D007A9234 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -490,7 +491,7 @@
 				};
 			};
 			buildConfigurationList = 4FADC24608B4156D00ABE55E /* Build configuration list for PBXProject "libpng" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -504,7 +505,7 @@
 				8D07F2BC0486CC7A007CD1D0 /* mac-libpng */,
 				A55DFB7715EBB44B007CCF00 /* mac-static-libpng */,
 				A5A58CE517CF7FBE00B64330 /* ios-static-libpng */,
-				A5BFDB9B1A97359D007A9234 /* mac-libpng-test */,
+				A5BFDB9B1A97359D007A9234 /* libpng-test */,
 			);
 		};
 /* End PBXProject section */
@@ -670,7 +671,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5BFDBA11A97359D007A9234 /* mac_libpng_test.m in Sources */,
+				A5BFDBA11A97359D007A9234 /* libpng_test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,6 +712,7 @@
 				MACH_O_TYPE = mh_dylib;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = "-lz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igrsoft.libpng;
 				PRODUCT_NAME = libpng;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
@@ -731,6 +733,7 @@
 				MACH_O_TYPE = mh_dylib;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = "-lz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.igrsoft.libpng;
 				PRODUCT_NAME = libpng;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
@@ -742,6 +745,7 @@
 			buildSettings = {
 				DYLIB_COMPATIBILITY_VERSION = 1.6.13;
 				DYLIB_CURRENT_VERSION = 1.6.18;
+				ENABLE_TESTABILITY = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -868,6 +872,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DYLIB_CURRENT_VERSION = 1.6.20;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -886,10 +891,11 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "mac-libpng-test/Info.plist";
+				INFOPLIST_FILE = "libpng-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.igrsoft.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -915,6 +921,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_CURRENT_VERSION = 1.6.20;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -927,10 +934,11 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "mac-libpng-test/Info.plist";
+				INFOPLIST_FILE = "libpng-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.igrsoft.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -975,7 +983,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5BFDBA51A97359D007A9234 /* Build configuration list for PBXNativeTarget "mac-libpng-test" */ = {
+		A5BFDBA51A97359D007A9234 /* Build configuration list for PBXNativeTarget "libpng-test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5BFDBA61A97359D007A9234 /* Debug */,
