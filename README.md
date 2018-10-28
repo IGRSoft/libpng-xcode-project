@@ -6,6 +6,7 @@ Xcode project of libpng for Apple OSX / iOS.
 Tested on v1.6.35.
 
 Min macOS version >= 10.13
+
 Min iOS version >= 11.0
 
 Installation
