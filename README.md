@@ -16,15 +16,6 @@ ___
 3. Put Xcode folder to ./projects folder;
 4. Build.
 
- ___
-### Contribute to Development Goals Here: 
-
-BTC: 16tGJzt4gJJBhBetpV6BuaWuNfxvkdkbt4
-
-BCH: bitcoincash:qpcwefpxddjqzdpcrx6tek3uh6x9v7t8tugu30jvks
-
-LTC: litecoin:MLZxuAdJCaW7LdM4sQuRazgdNvd8G2bdyt
-
 ___
 ### Licence
 libpng-xcode-project is available under the MIT license. See the LICENSE file for more info.
